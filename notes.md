@@ -28,3 +28,10 @@ kubectl describe <replicaset_name>
 kubectl edit rs <replicaset_name>
 kubectl scale rs <replicaset_name> --replicas=n
 
+
+# Kubernates Componets
+1) PODS - Smallest deployable Unit
+2) Nodes - Physical (or) virtual machine, that holds pods
+3) Cluster - Collection of pods and nodes
+4) ReplicaSet - Configures replicas
+5) Services - Manges networks within the kubernates
