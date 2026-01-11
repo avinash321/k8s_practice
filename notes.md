@@ -35,3 +35,8 @@ kubectl scale rs <replicaset_name> --replicas=n
 3) Cluster - Collection of pods and nodes
 4) ReplicaSet - Configures replicas
 5) Services - Manges networks within the kubernates
+
+Services:
+- NodePort
+- ClusterIP
+- LoadBalencer
